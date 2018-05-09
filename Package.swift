@@ -13,7 +13,7 @@ let package = Package(
     .package(url: "https://github.com/vapor/fluent-mysql.git", from: "3.0.0-rc.2.3"),
     
     //VaporSpices
-    .package(url: "../VaporSpices", from: "0.0.1")
+    .package(url: "../VaporSpices", from: "0.0.2")
     ],
   targets: [
     .target(name: "App", dependencies: ["FluentSQLite", "FluentMySQL", "FluentPostgreSQL", "Vapor", "VaporSpices"]),
